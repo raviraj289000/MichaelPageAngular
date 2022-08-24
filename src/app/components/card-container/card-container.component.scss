@@ -1,0 +1,24 @@
+:host ::ng-deep .p-dropdown {
+    width: 14rem;
+}
+
+.country-item-value {
+    img.flag {
+        width: 17px;
+    }
+}
+
+p-skeleton {
+    width: 100%;
+}
+
+.flexContainer {
+    display: flex;
+    margin: 25px;
+}
+
+.bgColorCl {
+    padding: 18px;
+    background-color: lightgray;
+}
+

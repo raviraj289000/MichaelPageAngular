@@ -1,0 +1,29 @@
+:host ::ng-deep .p-dropdown {
+    width: 14rem;
+}
+
+.country-item-value {
+    img.flag {
+        width: 17px;
+    }
+}
+
+p-skeleton {
+    width: 100%;
+}
+
+::ng-deep .p-card .p-card-title {
+    font-size: 12px;
+    height:20px
+}
+
+::ng-deep.p-card .p-card-body {
+    border:1px solid lightgray;
+}
+
+::ng-deep.p-card .p-card-content {
+    margin-left: 180px;
+    margin-bottom: -15px;
+}
+
+
