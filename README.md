@@ -1,5 +1,11 @@
 # AngularSPA
 
+1.PrimeNG is used for card and dropdown
+2.The card is designed to accomodate person information such as job title, photo
+3. Card consist of a title at top, thumbnail at bottomr right corner and some space to the right to add details such as email id, phone no. etc 
+4. UX consist of 5x10 cards, 5 cards in column and 10 in row
+5. Dropdown selection creates 5x10 display 
+
 npm install is needed
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
