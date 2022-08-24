@@ -5,7 +5,7 @@
 3. Card consist of a title at top, thumbnail at bottomr right corner and some space to the right to add details such as email id, phone no. etc 
 4. UX consist of 5x10 cards, 5 cards in column and 10 in row
 5. Dropdown selection creates 5x10 display 
-6. Clicking on thumbnail opens new tan with englarged image of given url
+6. Clicking on thumbnail opens new tab with englarged image of given url
 
 npm install is needed
 
