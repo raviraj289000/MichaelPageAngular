@@ -6,10 +6,10 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./card.component.scss']
 })
 export class CardComponent implements OnInit {
- 
-  @Input() photoCardHeader:any;
-  @Input() thumbNail:any;
-  @Input() picUrl:any;
+
+  @Input() photoCardHeader: string = "";
+  @Input() thumbNail: string = "";
+  @Input() picUrl: string = "";
 
   constructor() { }
 

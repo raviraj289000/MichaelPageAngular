@@ -9,10 +9,10 @@ import { albumData } from '../models/photoLibraryModel';
 })
 export class PhotoAlbumService {
 
-  constructor(private http:HttpClient) { }
+  constructor(private http: HttpClient) { }
 
-  onFetchPhotoAlbums():Observable<albumData[]> {
-   return this.http.get<albumData[]>(apiUrls.getPhotoAlbums);
+  onFetchPhotoAlbums(): Observable<albumData[]> {
+    return this.http.get<albumData[]>(apiUrls.getPhotoAlbums);
   }
 
 }

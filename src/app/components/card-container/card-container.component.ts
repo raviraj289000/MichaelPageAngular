@@ -29,7 +29,7 @@ export class CardContainerComponent implements OnInit {
     }
   }
 
-  ngOnInit(): void {
+  onFetchAlbums() {
     this.photoAlbumService.onFetchPhotoAlbums().pipe(take(1)).subscribe((data: albumData[]) => {
       let count = data.reduce((ar: any[], item: any) => {
         if (ar.indexOf(item.albumId) == -1) {
@@ -54,4 +54,10 @@ export class CardContainerComponent implements OnInit {
       }
     });
   }
+
+
+  ngOnInit(): void {
+    this.onFetchAlbums();
+  }
+
 }
